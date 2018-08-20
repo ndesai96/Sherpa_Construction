@@ -49,19 +49,15 @@ class Navbar extends Component {
 
           <div className="navbar_logo"><a href="/">SHERPA</a></div>
 
-          <div className="navbar_center">
-            <ul>
-              <li><a href="/">Hotels</a></li>
-              <li><a href="/">Residences</a></li>
-              <li><a href="/">About Us</a></li>
-            </ul>
-          </div>
+          <ul className="navbar_center">
+            <li className="Hotels"><a href="/">Hotels</a></li>
+            <li className="Residences"><a href="/">Residences</a></li>
+            <li className="About Us"><a href="/">About Us</a></li>
+          </ul>
 
-          <div className="navbar_right">
-            <ul>
-              <li><a href="/">Contact</a></li>
-            </ul>
-          </div>
+          <ul className="navbar_right">
+            <li className="Contact"><a href="/">Contact</a></li>
+          </ul>
 
         </nav>
       </header>
